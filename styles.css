@@ -1,0 +1,87 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(214, 236, 8);
+  font-family: 'Times New Roman', Times, serif;
+  border-color: black;
+  position: relative; margin-top: -10px;
+  font-size: 50px;
+}
+
+h1, h2 {
+  color: rgb(214, 236, 8);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgba(10, 14, 14, 0.7);
+}
+
+.text {
+  color: rgb(214, 236, 8);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/02/css3-hexagons-grid-background-animation.png?fit=1011%2C666&ssl=1);
+  background-size: 120%;
+}
+
+ul {
+  color: aquamarine
+}
+
+body {
+  min-height: 100vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+ p {
+  background-color: rgba(10, 14, 14, 0.7);
+  padding-left: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text1 {
+  color: rgb(214, 236, 8);
+  max-width: 800px;
+  height: auto;
+  
+}
+.firstvid {
+  background-color: transparent;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(7, 213, 228);
+    text-align: center;
+    }
+
+    .image{
+      float:left;
+      width:30%; 
+    }
+    .image img {
+        display:block;
+        width:800;
+        height:130px;
+    }
+
+
+

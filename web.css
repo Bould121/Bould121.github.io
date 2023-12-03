@@ -6,7 +6,7 @@
 
 h1 {
   color: rgb(214, 236, 8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: cursive;
   border-color: black;
   position: relative; margin-top: -10px;
   font-size: 50px;
@@ -14,14 +14,14 @@ h1 {
 
 h1, h2 {
   color: rgb(214, 236, 8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: cursive;
   text-align: center;
   background-color: rgba(10, 14, 14, 0.7);
 }
 
 .text {
   color: rgb(214, 236, 8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: cursive;
 }
 
 html {
@@ -45,8 +45,7 @@ body {
 
  p {
   background-color: rgba(10, 14, 14, 0.7);
-  padding-left: 5px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: cursive;
 }
 
 .text1 {
@@ -73,13 +72,16 @@ body {
     text-align: center;
     }
 
-    .image{
+    .imageleft {
       float:left;
       width:30%; 
     }
-    .image img {
+    .imageleft img {
         display:block;
         width:800;
         height:130px;
     }
 
+b {
+  color: #860707;
+}

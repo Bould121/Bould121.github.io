@@ -75,6 +75,7 @@ body {
     .imageleft {
       float:left;
       width:30%; 
+      padding: 1px;
     }
     .imageleft img {
         display:block;
@@ -85,3 +86,4 @@ body {
 b {
   color: #860707;
 }
+

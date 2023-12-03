@@ -76,12 +76,12 @@ body {
     .imageleft {
       float:left;
       width:30%; 
-      padding: 1px;
     }
     .imageleft img {
         display:block;
         width:800;
         height:130px;
+        padding: 5px;
     }
 
 b {

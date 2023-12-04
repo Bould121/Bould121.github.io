@@ -6,9 +6,8 @@
 
 h1 {
   color: rgb(214, 236, 8);
-  font-family: cursive;
   border-color: black;
-  position: relative; margin-top: -10px;
+
   font-size: 50px;
 }
 
@@ -20,22 +19,28 @@ h1, h2 {
 
 .text {
   color: rgb(0, 0, 0);
+  max-width: 800px;
+  height: auto;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-align: auto;
+  border-style: solid;
+  padding: 5px;
 }
 
 html {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs6Hj-gGrW83AAUTw_4qU6OqA6MS_GQPDKjQ&usqp=CAU);
   background-size: 100%;
+  background-repeat: repeat;
 }
 
 
 body {
-  margin-left: 1%;
-  margin-right: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 80px;
+  border-style: double;
 }
 
  p {
@@ -47,7 +52,6 @@ ul {
   color: rgb(0, 0, 0);
   max-width: 800px;
   height: auto;
-  font-family: cursive;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
@@ -56,8 +60,11 @@ ul {
   color: rgb(0, 0, 0);
   max-width: 800px;
   height: auto;
-  font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
+  text-align: left;
+  border-style: solid;
+  padding: 5px;
   
 }
 .firstvid {
@@ -65,6 +72,8 @@ ul {
   height: auto;
   max-width: 100%;
   text-align: center;
+  padding-top: 10px;
+
   
 }
 
@@ -80,23 +89,23 @@ ul {
 
     .imageleft {
       float:left;
-      width:30%; 
+      width:40%; 
     }
     .imageleft img {
         display:block;
         width:800;
-        height:130px;
-        padding: 5px;
+        height:180px;
+        padding: 10px;
     }
 
 .imageright {
   float:right;
-  width:30%; 
+  width:40%; 
 }
 
 .imageright img {
   display:block;
   width:800;
-  height:130px;
-  padding: 5px;
+  height:200px;
+  padding: 10px;
 }

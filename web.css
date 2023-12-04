@@ -14,24 +14,20 @@ h1 {
 
 h1, h2 {
   color: rgb(214, 236, 8);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
-  background-color: rgba(10, 14, 14, 0.7);
 }
 
 .text {
-  color: rgb(214, 236, 8);
+  color: rgb(0, 0, 0);
   font-family: 'Courier New', Courier, monospace;
 }
 
 html {
-  background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/02/css3-hexagons-grid-background-animation.png?fit=1011%2C666&ssl=1);
-  background-size: 120%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs6Hj-gGrW83AAUTw_4qU6OqA6MS_GQPDKjQ&usqp=CAU);
+  background-size: 100%;
 }
 
-ul {
-  color: aquamarine
-}
 
 body {
   margin-left: 1%;
@@ -39,19 +35,29 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
  p {
-  background-color: rgba(10, 14, 14, 0.7);
   font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
-.text1 {
-  color: rgb(157, 173, 11);
+ul {
+  color: rgb(0, 0, 0);
   max-width: 800px;
   height: auto;
   font-family: cursive;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.text1 {
+  color: rgb(0, 0, 0);
+  max-width: 800px;
+  height: auto;
+  font-family: cursive;
+  font-weight: 700;
   
 }
 .firstvid {
@@ -83,7 +89,14 @@ body {
         padding: 5px;
     }
 
-b {
-  color: #860707;
+.imageright {
+  float:right;
+  width:30%; 
 }
 
+.imageright img {
+  display:block;
+  width:800;
+  height:130px;
+  padding: 5px;
+}
